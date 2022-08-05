@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PokeApi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item_image_content_description">pokemon\'s image</string>
+    <string name="checkbox_text_hp">HP</string>
+    <string name="checkbox_text_defense">Defense</string>
+    <string name="checkbox_text_attack">Attack</string>
+    <string name="button_text_retry">retry</string>
+    <string name="text_no_connection">Click to download local data</string>
+    <string name="no_connection_text">No internet connection!</string>
+</resources>

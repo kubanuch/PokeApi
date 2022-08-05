@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/fifteen_dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="@dimen/thirty_dp"
+        app:strokeColor="@color/yellow"
+        app:strokeWidth="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/five_dp">
+
+            <ImageView
+                android:id="@+id/item_pokemon_image"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/unknown_pokemon"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/item_image_content_description"
+                android:padding="@dimen/fifteen_dp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/item_pokemon_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="@dimen/five_dp"
+        android:fontFamily="@font/amarante"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/eighteen_dp"
+        tools:text="Bulbasaur" />
+
+</LinearLayout>
